@@ -1,0 +1,10 @@
+<nav>
+    <div>
+        <a href="{{@site.url}}">{{@site.title}}</a>
+        <ul>
+            {{#foreach navigation}}
+                <li><a href="{{url}}">{{label}}</a></li>
+            {{/foreach}}
+        </ul>
+    </div>
+</nav>
