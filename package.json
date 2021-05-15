@@ -1,0 +1,33 @@
+{
+  "name": "matemaatik-web",
+  "version": "1.0.0",
+  "description": "The Matemaatik app web-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/35grain/matemaatik-web.git"
+  },
+  "author": "The Matemaatik app team",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp build",
+    "format": "prettier --write src/**/*.{js,scss}"
+},
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "webpack": "^4.44.1",
+    "webpack-stream": "^6.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
