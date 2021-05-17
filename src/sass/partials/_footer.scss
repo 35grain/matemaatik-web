@@ -1,0 +1,13 @@
+footer {
+    .github-link {
+        opacity: 0.7;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    .footer-desc {
+        background-color: rgba(128, 128, 128, 0.5);
+        color: lighten($primary, 10%);
+    }
+}
