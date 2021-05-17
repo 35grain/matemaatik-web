@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Matemaatik - 404</title>
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#4dcaa5">
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#4dcaa5">
+    <meta name="msapplication-config" content="./assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <!--Stylesheet-->
     <link rel="stylesheet" href="./assets/css/main.min.css">
     <!--jQuery-->
@@ -14,17 +23,27 @@
 
 <body>
     <header>
-        Header content here
+        <nav class="navbar pt-0">
+            <div class="container-fluid">
+                <div class="d-flex ms-auto">
+                    <a href="https://play.google.com/store/apps/details?id=ee.ratr.matemaatik" target="_blank" class="btn play-store">TÕMBA ALLA <span class="d-block small">PLAY POEST</span></a>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main class="container">
-        <section class="row">
+    <main class="container mt-5">
+        <section class="row pb-5" id="error">
             <div class="col-12 col-lg-8 mx-auto text-center">
-                <h1>Error 404: Page not found :(</h1>
+                <h1>Error 404: Sinu arvutused on ebakorrektsed :/</h1>
+                <a href="./">Õpeta mind!</a>
             </div>
         </section>
     </main>
-    <footer>
-        Footer here
+    <footer class="text-center pt-5 fixed-bottom">
+        <a href="https://github.com/35grain/matemaatik" class="github-link" target="_blank"><img src="assets/img/github-icon.svg" width="40" height="40" alt="GitHubi repositoorium"></a>
+        <div class="footer-desc text-center py-3 mt-3">
+            <h4 class="m-0">© MATEMAATIK 2021</h4>
+        </div>
     </footer>
     <!--Main JS-->
     <script src="./assets/js/main.min.js"></script>

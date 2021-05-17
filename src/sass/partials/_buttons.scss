@@ -1,11 +1,13 @@
 .play-store {
     background-color: lighten($primary, 10%);
     border-radius: 0 0 15px 15px;
+    text-decoration: none;
 
     &:hover,
     &:focus,
     &:active {
         text-decoration: none;
         box-shadow: none;
+        background-color: lighten($primary, 15%);
     }
 }

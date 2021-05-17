@@ -5,11 +5,34 @@ h2 {
 
 h1 {
     text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     font-weight: normal;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.highlight {
+    color: #f5da60;
+}
+
+// Selection color
+::-moz-selection { 
+    color: $primary;
+    background: rgba(255, 255, 255, 0.9);
+    text-shadow: none;
+}
+::selection { 
+    color: $primary;
+    background: rgba(255, 255, 255, 0.9);
+    text-shadow: none;
 }

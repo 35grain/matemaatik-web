@@ -286,7 +286,7 @@ $body-text-align:           null !default;
 // Style anchor elements.
 
 $link-color:                              $white !default;
-$link-decoration:                         none !default;
+$link-decoration:                         underline !default;
 $link-shade-percentage:                   0 !default;
 $link-hover-color:                        $white !default;
 $link-hover-decoration:                   null !default;
